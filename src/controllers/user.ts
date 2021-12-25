@@ -5,7 +5,7 @@ import { UserRegisterDto } from "../dto/user-register";
 import { HTTPError } from "../errors/http-error";
 import { LoggerService } from "../logger";
 import { ValidateMiddleware } from "../middleware/validation";
-import { UserService } from "../services/user";
+import { UserService } from "../services/users";
 import { sign } from "jsonwebtoken";
 import { ConfigService } from "../config/config.service";
 import { AuthGuard } from "../common/auth.guard";

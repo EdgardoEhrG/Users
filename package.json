@@ -1,5 +1,5 @@
 {
-  "name": "dashboard-api",
+  "name": "users-api",
   "version": "1.0.0",
   "description": "api",
   "main": "index.js",
@@ -10,10 +10,6 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "prisma generate"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EdgardoEhrG/DashboardAPI.git"
   },
   "author": "Edgar Ehrenberg",
   "license": "ISC",

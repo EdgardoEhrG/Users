@@ -6,7 +6,7 @@ import { json } from "body-parser";
 import { LoggerService } from "./logger";
 import { UserController } from "./controllers/user";
 import { ExceptionFilter } from "./errors/exception";
-import { IUserService, UserService } from "./services/user";
+import { IUserService, UserService } from "./services/users";
 import { ConfigService } from "./config/config.service";
 import { IConfigService } from "./config/config.service.interface";
 import { ILogger } from "./logger/interface";

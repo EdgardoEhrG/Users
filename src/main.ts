@@ -5,7 +5,7 @@ import { PrismaService } from "./database/prisma";
 import { ExceptionFilter } from "./errors/exception";
 import { LoggerService } from "./logger";
 import { UsersRepository } from "./repositories/users";
-import { UserService } from "./services/user";
+import { UserService } from "./services/users";
 
 async function run() {
   const logger = new LoggerService();
